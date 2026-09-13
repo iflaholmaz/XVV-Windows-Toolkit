@@ -5,7 +5,7 @@ param()
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
 
-foreach ($relative in @('XVV.ps1', 'Start-XVV.ps1', 'src\XVV.Core.psm1')) {
+foreach ($relative in @('XVV.ps1', 'src\Launcher.ps1', 'src\XVV.Core.psm1')) {
     $path = Join-Path $root $relative
     $tokens = $null
     $errors = $null

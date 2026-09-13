@@ -3,8 +3,9 @@
 param()
 
 $ErrorActionPreference = 'Stop'
-$appScript = Join-Path $PSScriptRoot 'XVV.ps1'
-$errorLog = Join-Path $PSScriptRoot 'XVV-error.log'
+$projectRoot = Split-Path -Parent $PSScriptRoot
+$appScript = Join-Path $projectRoot 'XVV.ps1'
+$errorLog = Join-Path $projectRoot 'XVV-error.log'
 
 try {
     if (-not (Test-Path -LiteralPath $appScript -PathType Leaf)) {

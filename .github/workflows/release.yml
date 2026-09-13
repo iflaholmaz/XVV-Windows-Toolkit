@@ -18,7 +18,7 @@ jobs:
         shell: powershell
         run: |
           New-Item -ItemType Directory -Path package\XVV | Out-Null
-          @('Start-XVV.bat', 'Start-XVV.ps1', 'XVV.ps1', 'README.md', 'LICENSE') |
+          @('Start-XVV.bat', 'XVV.ps1', 'LICENSE') |
             ForEach-Object { Copy-Item $_ package\XVV -Force }
           @('data', 'src') |
             ForEach-Object { Copy-Item $_ package\XVV -Recurse -Force }
