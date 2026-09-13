@@ -1,0 +1,23 @@
+name: Özellik isteği / Feature request
+description: Yeni ve güvenli bir özellik önerin / Suggest a new, safe feature
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: İhtiyaç / Need
+      description: Hangi sorunu çözüyor? / What problem does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Önerilen davranış / Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risk ve geri alma / Risk and rollback
+      description: Windows veya kayıt ayarıysa olası yan etkiyi ve geri alma yöntemini yazın. / For Windows or registry settings, describe side effects and rollback.

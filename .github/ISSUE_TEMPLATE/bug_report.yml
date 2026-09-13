@@ -1,0 +1,38 @@
+name: Hata bildirimi / Bug report
+description: XVV içinde tekrarlanabilir bir sorunu bildirin / Report a reproducible XVV problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Dil / Language
+      options: [Türkçe, English]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: XVV sürümü / XVV version
+      placeholder: Stable release / Kararlı sürüm
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Sorun / Problem
+      description: Ne oldu ve ne olmasını bekliyordunuz? / What happened and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Tekrar adımları / Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Günlük / Log
+      description: Kişisel bilgileri kaldırarak XVV-error.log içeriğini ekleyin. / Remove personal data and attach XVV-error.log contents.
+      render: shell

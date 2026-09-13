@@ -1,0 +1,19 @@
+name: Validate XVV
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate PowerShell, XAML, and catalog
+        shell: powershell
+        run: .\scripts\Validate-XVV.ps1
