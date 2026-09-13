@@ -1,6 +1,6 @@
 ﻿Set-StrictMode -Version Latest
 
-# XVV core services - tv3m (@iflaholmaz), 2026.
+# XVV core services - iflaholmaz (@iflaholmaz), 2026.
 function Test-XVVAdministrator {
     $identity = [Security.Principal.WindowsIdentity]::GetCurrent()
     $principal = [Security.Principal.WindowsPrincipal]::new($identity)
