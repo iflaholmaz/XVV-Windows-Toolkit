@@ -1,6 +1,6 @@
 # XVV Control Center
 
-> A bilingual Windows 10/11 maintenance, setup, hardware-information, and tweak center by **tv3m**.
+> A bilingual Windows 10/11 maintenance, setup, hardware-information, and tweak center by **iflaholmaz**.
 
 [Türkçe](#türkçe) · [English](#english)
 
@@ -125,4 +125,4 @@ The project structure and implementation are original. Research was informed by 
 
 ## License
 
-MIT © 2026 **tv3m** ([@iflaholmaz](https://github.com/iflaholmaz))
+MIT © 2026 **iflaholmaz** ([@iflaholmaz](https://github.com/iflaholmaz))
