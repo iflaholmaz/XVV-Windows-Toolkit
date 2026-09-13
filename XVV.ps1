@@ -2,7 +2,7 @@
 [CmdletBinding()]
 param()
 
-# XVV Control Center - designed and maintained by tv3m (@iflaholmaz).
+# XVV Control Center - designed and maintained by iflaholmaz (@iflaholmaz).
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
@@ -58,7 +58,7 @@ $translations = @{
     tr = @{
         NavHome='Ana Sayfa'; NavCleanup='Temizlik'; NavApps='Uygulamalar'; NavInstall='Hızlı Kurulum'; NavFps='FPS Ayarları'; NavSpecs='PC Özellikleri'; NavTools='Hızlı Araçlar'
         HomeTitle='Merhaba.'; HomeSubtitle='Windows bakımı, kurulum ve ince ayarlar tek kontrol merkezinde.'; OsLabel='İŞLETİM SİSTEMİ'; DiskLabel='BOŞ DİSK ALANI'; UptimeLabel='ÇALIŞMA SÜRESİ'
-        HomeHeroBadge='tv3m | XVV CONTROL'; HomeCardTitle='Kontrolü eline al'; HomeCardSubtitle='Başlamak istediğin bölümü seç.'; HomeScanButton='Temizliği Aç'; HomeInstallButton='Kurulumu Aç'; HomeFpsButton='Ayarları Aç'; HomeSpecsButton='Bilgileri Aç'; HomeQuickTitle='PC ÖZELLİKLERİ'; HomeQuickSubtitle='İşlemci, ekran kartı, anakart, RAM, disk ve monitör ayrıntılarını incele.'; HomeSafetyTitle='AKILLI TEMİZLİK'; HomeSafetyText='Geçici dosyaları önce tara, boyutlarını gör ve yalnız seçtiklerini temizle.'; HomeCatalogTitle='HIZLI KURULUM'; HomeCatalogText='Format sonrası uygulamaları Winget ile güncel sürümlerinden topluca kur.'; HomeTweaksTitle='WINDOWS AYARLARI'; HomeTweaksText='40 oyun, gizlilik, Explorer ve arayüz ayarını yedekleyerek uygula.'
+        HomeHeroBadge='iflaholmaz | XVV CONTROL'; HomeCardTitle='Kontrolü eline al'; HomeCardSubtitle='Başlamak istediğin bölümü seç.'; HomeScanButton='Temizliği Aç'; HomeInstallButton='Kurulumu Aç'; HomeFpsButton='Ayarları Aç'; HomeSpecsButton='Bilgileri Aç'; HomeQuickTitle='PC ÖZELLİKLERİ'; HomeQuickSubtitle='İşlemci, ekran kartı, anakart, RAM, disk ve monitör ayrıntılarını incele.'; HomeSafetyTitle='AKILLI TEMİZLİK'; HomeSafetyText='Geçici dosyaları önce tara, boyutlarını gör ve yalnız seçtiklerini temizle.'; HomeCatalogTitle='HIZLI KURULUM'; HomeCatalogText='Format sonrası uygulamaları Winget ile güncel sürümlerinden topluca kur.'; HomeTweaksTitle='WINDOWS AYARLARI'; HomeTweaksText='40 oyun, gizlilik, Explorer ve arayüz ayarını yedekleyerek uygula.'
         CleanupTitle='Akıllı Temizlik'; CleanupSubtitle='Temizlemek istediklerini seç. Önce tarama yapabilirsin.'; ScanButton='Tara'; CleanButton='Seçilenleri Temizle'
         AppsTitle='Windows Uygulamaları'; AppsSubtitle='Kutucukları işaretle ve seçtiğin uygulamaları tek işlemle kaldır.'; ClearAppSelectionButton='Seçimi Temizle'; RefreshAppsButton='Yenile'; RemoveAppsButton='Seçilenleri Kaldır'
         InstallTitle='Hızlı Kurulum'; InstallSubtitle='Format sonrası gereken uygulamaları seç; en güncel sürümleri Winget ile topluca kur.'; ClearInstallSelectionButton='Seçimi Temizle'; InstallSelectedButton='Seçilenleri Kur'; InstallCatAll='Tümü'; InstallCatGames='Oyunlar'; InstallCatBrowsers='Tarayıcılar'; InstallCatSecurity='Güvenlik'; InstallCatCommunication='İletişim'; InstallCatMedia='Video ve Medya'; InstallCatTools='Araçlar'
@@ -69,7 +69,7 @@ $translations = @{
     en = @{
         NavHome='Home'; NavCleanup='Cleanup'; NavApps='Applications'; NavInstall='Quick Install'; NavFps='FPS Settings'; NavSpecs='PC Specifications'; NavTools='Quick Tools'
         HomeTitle='Hello.'; HomeSubtitle='Windows maintenance, setup, and fine-tuning in one control center.'; OsLabel='OPERATING SYSTEM'; DiskLabel='FREE DISK SPACE'; UptimeLabel='UPTIME'
-        HomeHeroBadge='tv3m | XVV CONTROL'; HomeCardTitle='Take control'; HomeCardSubtitle='Choose the section you want to start with.'; HomeScanButton='Open Cleanup'; HomeInstallButton='Open Installer'; HomeFpsButton='Open Settings'; HomeSpecsButton='Open Details'; HomeQuickTitle='PC SPECIFICATIONS'; HomeQuickSubtitle='Inspect processor, graphics, motherboard, memory, storage, and monitor details.'; HomeSafetyTitle='SMART CLEANUP'; HomeSafetyText='Scan temporary files, review their size, and clean only what you select.'; HomeCatalogTitle='QUICK INSTALL'; HomeCatalogText='Batch-install current post-format applications through Winget.'; HomeTweaksTitle='WINDOWS SETTINGS'; HomeTweaksText='Apply 40 gaming, privacy, Explorer, and interface settings with backups.'
+        HomeHeroBadge='iflaholmaz | XVV CONTROL'; HomeCardTitle='Take control'; HomeCardSubtitle='Choose the section you want to start with.'; HomeScanButton='Open Cleanup'; HomeInstallButton='Open Installer'; HomeFpsButton='Open Settings'; HomeSpecsButton='Open Details'; HomeQuickTitle='PC SPECIFICATIONS'; HomeQuickSubtitle='Inspect processor, graphics, motherboard, memory, storage, and monitor details.'; HomeSafetyTitle='SMART CLEANUP'; HomeSafetyText='Scan temporary files, review their size, and clean only what you select.'; HomeCatalogTitle='QUICK INSTALL'; HomeCatalogText='Batch-install current post-format applications through Winget.'; HomeTweaksTitle='WINDOWS SETTINGS'; HomeTweaksText='Apply 40 gaming, privacy, Explorer, and interface settings with backups.'
         CleanupTitle='Smart Cleanup'; CleanupSubtitle='Select what you want to clean. You can scan first.'; ScanButton='Scan'; CleanButton='Clean Selected'
         AppsTitle='Windows Applications'; AppsSubtitle='Check multiple applications and remove them in one operation.'; ClearAppSelectionButton='Clear Selection'; RefreshAppsButton='Refresh'; RemoveAppsButton='Remove Selected'
         InstallTitle='Quick Install'; InstallSubtitle='Select your post-format essentials and install their latest versions together with Winget.'; ClearInstallSelectionButton='Clear Selection'; InstallSelectedButton='Install Selected'; InstallCatAll='All'; InstallCatGames='Games'; InstallCatBrowsers='Browsers'; InstallCatSecurity='Security'; InstallCatCommunication='Communication'; InstallCatMedia='Video and Media'; InstallCatTools='Tools'
@@ -803,7 +803,7 @@ function Update-XVVFpsOptions {
         if ($null -ne $warningPanel) { $panel.Children.Add($warningPanel) | Out-Null }
         $panel.Children.Add($details) | Out-Null
         $card.Child = $panel
-        # tv3m: iki panel bilinçli olarak 20/20 dengede tutulur.
+        # iflaholmaz: iki panel bilinçli olarak 20/20 dengede tutulur.
         $performanceIds = @('GameMode','GameDvr','AppCapture','Hags','PowerThrottling','GameBarStartup','GameModeNotices','MouseAccel','KeyboardDelay','PowerPlan','LongPaths','FileExtensions','LaunchThisPc','CompactExplorer','SeparateExplorer','TaskbarEndTask','HideRecommended','TaskbarSearch','TaskViewButton','TaskbarLeft')
         if ($performanceIds -contains $tweak.Id) { $ui.FpsPerformanceOptions.Children.Add($card) | Out-Null }
         else { $ui.FpsWindowsOptions.Children.Add($card) | Out-Null }
